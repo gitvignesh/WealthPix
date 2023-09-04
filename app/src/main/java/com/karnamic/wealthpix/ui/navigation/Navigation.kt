@@ -12,7 +12,7 @@ fun Navigation(navController: NavHostController) {
 
     NavHost(navController = navController, startDestination = HomeScreen.route) {
         composable(route = HomeScreen.route) {
-            HomeScreen(navController = navController)
+            HomeScreen()
         }
 
         composable(route = NewsScreen.route) {
